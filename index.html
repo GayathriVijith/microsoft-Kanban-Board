@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <script
+    src = "https://kit.fontawesome.com/589957875e.js";
+    crossorigin = "anonymous";
+    ></script>
+    <link rel = "stylesheet" href = "style.css"/>
+</head>
+<body>
+    <div class="toolbox-cont">
+    <div class="toolbox-priority-cont">
+    <div class="lightpink color"></div>
+    <div class="lightgreen color"></div> 
+    <div class="lightskyblue color"></div>
+    <div class="burlywood color"></div>
+    </div>
+    <div class="action-btn-cont">
+    <div class="add-btn">
+    <i class="fa-solid fa-plus"></i>
+    </div>
+    <div class="remove-btn">
+    <i class="fa-solid fa-trash"></i>
+    </div>
+    </div>
+    </div>
+    <div class="main-cont">
+    <div class="ticket-cont">
+    <div class="ticket-color"></div>
+    <div class="ticket-id">12345</div>
+    <div class="task-area">Random Task</div>
+    <div class="ticket-lock">
+    <i class="fa-solid fa-lock"></i>
+    </div>
+    </div>
+    </div>
+    <div class="modal-cont">
+        <textarea class = "textarea-cont" placeholder="Enter Your Task"></textarea>
+        <div class="priority-color-cont">
+            <div class="lightpink priority-cont"></div>
+            <div class="lightgreen priority-cont"></div>
+            <div class="lightskyblue priority-cont"></div>
+            <div class="burlywood priority-cont active"></div>
+        </div>
+    </div>
+    <script
+<!-- src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script> -->
+<script src="./script.js"></script>
+</body>
+</html>

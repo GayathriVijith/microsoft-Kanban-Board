@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.toolbox-cont{
+    width: 100vw;
+    height:5rem;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+.toolbox-cont > *{
+   align-items: center;
+   margin-left: 4rem;
+}
+.toolbox-priority-cont{
+    height: 3.5rem;
+    width: 25rem;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #b2ffe5;
+}
+.toolbox-priority-cont > *:hover{
+    background-color: antiquewhite;
+}
+.color{
+    height: 2rem;
+    width: 5rem;
+}
+.lightpink{
+    background-color: lightpink;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightskyblue{
+    background-color: lightskyblue;
+}
+.burlywood{
+    background-color: burlywood;
+}
+.action-btn-cont{
+    height: 3.5rem;
+    width: 8rem;
+    display: flex;
+    background-color: #b2ffe5;
+}
+.action-btn-cont > * {
+    display:flex;
+    width: 50%;
+    height:100%;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+.add-btn:hover, .remove-btn:hover{
+    background-color: antiquewhite;
+} 
+.main-cont{
+    /* height:100vh;
+    width: 100vw; */
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+}
+.ticket-cont{
+    height: 10rem;
+    width: 10rem;
+    background-color: bisque;
+    display: block;
+
+}
+.ticket-color{
+    height:2rem;   
+}
+.ticket-id{
+    height:2rem;
+    background-color: violet;
+}
+.ticket-lock{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 8px;
+}
+.modal-cont{
+    height:50vh;
+    width: 70vh;
+    display:none;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    padding:2rem;
+    background-color:cornsilk;
+    color: black;
+    resize: none;
+    font-size: 2rem;
+}
+.priority-color-cont{
+    height:100%;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.priority-cont{
+    height: 3rem;
+    width: 5rem;
+}
+.active{
+    border: 5px solid salmon;
+}
